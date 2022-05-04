@@ -1,0 +1,70 @@
+body {
+    min-width: 300px;
+    text-align: center;
+}
+
+button {
+    background-color: #ffffff;
+    color: #4285f4;
+    border: 1px solid #eee;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: #eee;
+}
+.tab-groups {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.tab-group {
+    flex: 1 1 30%;
+    padding: 7px;
+    margin: 5px 2px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.72;
+    cursor: pointer;
+}
+.tab-group:hover {
+    opacity: 1;
+}
+.tab-group.grey {
+    background-color: #d0cbcb;
+}
+.tab-group.blue {
+    background-color: #6f8ed1;
+}
+.tab-group.red {
+    background-color: #c85d56;
+}
+.tab-group.yellow {
+    background-color: #eae085;
+}
+.tab-group.green {
+    background-color: #90e193;
+}
+.tab-group.pink {
+    background-color: #d56da8;
+}
+.tab-group.purple {
+    background-color: #bb6ec8;
+}
+.tab-group.cyan {
+    background-color: #63d3e2;
+}
+.tab-group.orange {
+    background-color: #e7b15a;
+}
+.tab-group.disabled {
+    opacity: 0.5;
+    color: #353535;
+    pointer-events: none;
+    cursor: not-allowed;
+}
